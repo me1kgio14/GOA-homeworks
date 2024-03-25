@@ -1,45 +1,45 @@
 #1
 
-# budget=int(input("enter your budget:"))
-# item=int(input("enter item price:"))
-# if item<=budget:
-#     print("you can buy this item")
-# else:
-#     print("sorry you dont have anough money")
+budget=int(input("enter your budget:"))
+item=int(input("enter item price:"))
+if item<=budget:
+    print("you can buy this item")
+else:
+    print("sorry you dont have anough money")
 
 
 
 #2
 
-# user_pasword="yoygio12"
-# user_input=input("enter user pasword:")
-# while user_input!=user_pasword:
-#     print("if you want to enter type user_pasword")
-#     user_input=input("enter user pasword:")
-# print("you have acces")
+user_pasword="yoygio12"
+user_input=input("enter user pasword:")
+while user_input!=user_pasword:
+    print("if you want to enter type user_pasword")
+    user_input=input("enter user pasword:")
+print("you have acces")
 
 
 
 #3
 
-# for i in range (int(input("enter num:")),int(input("enter num:")),int(input("enter num:"))):
-#     print(i)
+for i in range (int(input("enter num:")),int(input("enter num:")),int(input("enter num:"))):
+    print(i)
 
 
 
 #4
 
-# s1=int(input("triangle first sight:"))
-# s2=int(input("triangle second sight:"))
-# s3=int(input("triangle third sight:"))
+s1=int(input("triangle first sight:"))
+s2=int(input("triangle second sight:"))
+s3=int(input("triangle third sight:"))
 
-# walid=(s1+s2 > s3) and (s1+s3 > s2) and (s2+s3 > s1)
-# while walid!=True:
+walid=(s1+s2 > s3) and (s1+s3 > s2) and (s2+s3 > s1)
+while walid!=True:
     
-#     s1=int(input("reenter triangle first sight:"))
-#     s2=int(input("reenter triangle second sight:"))
-#     s3=int(input("reenter triangle third sight:"))
-#     walid=(s1+s2 > s3) and (s1+s3 > s2) and (s2+s3 > s1)
+    s1=int(input("reenter triangle first sight:"))
+    s2=int(input("reenter triangle second sight:"))
+    s3=int(input("reenter triangle third sight:"))
+    walid=(s1+s2 > s3) and (s1+s3 > s2) and (s2+s3 > s1)
     
 
 
@@ -67,8 +67,7 @@ else:
 
 
 
-
-    g=int(input("enter your age"))
+g=int(input("enter your age"))
 if g >= 18:
     print("you can chose something")
 else:
